@@ -14,8 +14,8 @@ module RwDepotTheme
       end
       
       def add_asset_loads
-        append_file("apps/assets/javascripts/application.js", "//= require depot")
-        inject_into_file("apps/assets/stylesheets/application.css", :before => '*/') do
+        append_file("app/assets/javascripts/application.js", "//= require depot")
+        inject_into_file("app/assets/stylesheets/application.css", :before => '*/') do
           " *= require depot"
         end
       end
