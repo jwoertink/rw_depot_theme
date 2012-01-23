@@ -1,0 +1,17 @@
+= RwDepotTheme
+This is a way to cut down development time for beginners when building the main depot application during RubyWeekend. This is specific to RubyWeekend, and to the application built during this workshop.
+
+= Installation
+
+In your Gemfile
+  gem "rw_depot_theme"
+  
+== Usage
+This will copy over all the views needed for the application. It should be using Rails 3.1+ so all the assets will be included in the pipeline by default. 
+
+  $ rails generate rw_views:setup
+
+
+== Copyright
+This project provided by members of the Las Vegas Ruby Group for purposes of RubyWeekend.com
+Copyright (c) 2012 Jeremy Woertink. See LICENSE.txt for further details.
