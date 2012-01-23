@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RubyWeekend Depot Store</title>
+  <%= stylesheet_link_tag "depot", "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <%= link_to(image_tag(asset_path('rw_depot_theme_logo.png')), root_path) %>
+    </div>
+    <div id="content">
+      <%= yield %>
+    </div>
+    <div id="footer">
+      <p>Copyright &copy; 2012. RubyWeekend Depot</p>
+    </div>
+  </div>
+  <%= javascript_include_tag "depot", "application" %>
+</body>
+</html>
