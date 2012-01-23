@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "rw_depot_theme"
   
-  s.add_dependency "railties", ">= 3.1.0"
+  s.add_dependency "railties", "3.1.3"
   s.add_dependency "thor", "~> 0.14"
 
   s.files         = `git ls-files`.split("\n")
