@@ -3,7 +3,7 @@ require 'rails'
 module RwDepotTheme
   module Generators
     class InstallGenerator < ::Rails::Generators::Base
-      source_root File.expand_path("../../../../app/views", __FILE__)
+      source_root File.expand_path("../../../../../app/views", __FILE__)
       
       desc "This generator will create all the views for the depot front-end"
       
