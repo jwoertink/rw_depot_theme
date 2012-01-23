@@ -1,10 +1,22 @@
-body 
-  background-color: #949494
+*
   margin: 0
-
+  padding: 0
+body 
+  background: #27AAE1 url(background.png) repeat-x scroll center -200px
+  font-family: Arial, sans-serif
+  font-size: 14px
 a 
   color: #569EE2
-
+  text-decoration: none
+  &:hover
+    text-decoration: underline
+  &:focus, &:active
+    outline: none
+img
+  border: none
+ul, ol
+  margin-left: 20px
+  
 #wrapper 
   margin: 0px auto
   width: 980px
@@ -19,9 +31,66 @@ a
 
 #header 
   margin-bottom: 15px
+  overflow: hidden
+  
+  #logo
+    float: left
 
+  #social
+    float: right
+    padding: 10px
+    a
+      font-size: 16px
+      margin-left: 10px
+      img 
+        vertical-align: top
+        margin-right: 4px
+  #search
+    margin-top: 15px
+    #q
+      border: 1px solid #666666
+      padding: 3px
+      border-radius: 6px
+      font-size: 16px
+  
+  #navbar
+    clear: both
+    background: -moz-linear-gradient(top, #27AAE1, #1987B6)
+    background: -webkit-gradient(linear, left top, left bottom, from(#27AAE1), to(#1987B6))
+    overflow: hidden
+    border-radius: 6px
+    
+    #nav
+      list-style: none
+      li
+        float: left
+        border-left: 1px solid #cccccc
+        &:first-child
+          border-left: none
+        a
+          display: block
+          padding: 4px 20px
+          font-size: 18px
+          text-transform: uppercase
+          text-decoration: none
+          color: #ffffff
+          &:hover
+            background-color: #67BEE4
+      
 #content 
   min-height: 400px
+  
+  #products
+    overflow: hidden
+    .product
+      text-align: center
+      padding: 10px
+      background-color: #ffffff
+      float: left
+      margin-right: 20px
+      margin-bottom: 20px
+      width: 100px
+      border: 1px solid #cccccc
 
 #footer 
   border-top: 1px solid #666666
