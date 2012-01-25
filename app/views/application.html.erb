@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>RubyWeekend Depot Store</title>
+  <meta charset="utf-8">
   <%= stylesheet_link_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
@@ -30,6 +31,7 @@
       </div>
     </div>
     <div id="content">
+      <div id="flash"><%= notice %></div>
       <!-- BEGIN CONTENT -->
       <h1>Welcome to our Store!</h1>
       <p>We have tons of products just for you! Pastrami short loin tongue, ham hock pancetta sirloin pork loin shankle bresaola rump pork beef chicken kielbasa. Drumstick bresaola boudin tenderloin meatloaf biltong short loin jowl, filet mignon fatback shank meatball. Salami andouille shoulder pork belly, pig swine ribeye prosciutto cow chicken biltong boudin corned beef shankle strip steak. Ball tip ham biltong tongue, rump fatback pork cow short ribs meatball andouille shoulder.</p>
@@ -44,7 +46,7 @@
       <!-- END CONTENT -->
     </div>
     <div id="footer">
-      <p>Copyright &copy; 2012. RubyWeekend Depot</p>
+      <p>Copyright &copy; 2012. <a href="http://rubyweekend.com" target="_blank">RubyWeekend</a></p>
       <p>Powered by <%= image_tag('rails.png') %>
     </div>
   </div>

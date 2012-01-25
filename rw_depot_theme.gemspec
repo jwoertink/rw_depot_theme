@@ -6,9 +6,9 @@ Gem::Specification.new do |s|
   s.version     = RwDepotTheme::Rails::VERSION
   s.authors     = ["Jeremy Woertink"]
   s.email       = ["jeremywoertink@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "http://rubyweekend.com"
   s.summary     = %q{Sample App theme for RubyWeekend}
-  s.description = %q{This gem will speed up development for RubyWeekend by including images, and pre-mad styles and scripts}
+  s.description = %q{This gem will speed up development for RubyWeekend by including images, styles, and scripts}
 
   s.rubyforge_project = "rw_depot_theme"
   

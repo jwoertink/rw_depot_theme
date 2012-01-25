@@ -7,9 +7,9 @@ In your Gemfile
   gem "rw_depot_theme"
   
 == Usage
-This will copy over all the views needed for the application. It should be using Rails 3.1+ so all the assets will be included in the pipeline by default. 
+This will copy over the layout needed for the application, and include the css and javascript into the pipeline.
 
-  $ rails generate rw_depot_theme:setup
+  $ rails generate rw_depot_theme:install
 
 
 == Copyright
